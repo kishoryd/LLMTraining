@@ -1,4 +1,4 @@
-This folder contains the training of a large language model (LLM). Currently, we are working on GTP2.
+This folder contains the training of a large language model (LLM). 
 
 
 ***Distributed data parallelism***
