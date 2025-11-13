@@ -1,10 +1,10 @@
 This folder contains the training of a large language model (LLM). 
 
 
-***Distributed data parallelism***
+ ***Distributed data parallelism***
 
 
-   DDP is implemented for the GPT2 model to improve the training process, and the Python script of the DDP implementation is given in **train_ddp_gpt_2.py**. 
+      DDP is implemented for the GPT2 model to improve the training process, and the Python script of the DDP implementation is given in **train_ddp_gpt_2.py**. 
 
    To run train_ddp_gpt_2.py in a cluster with a **single node and multiple GPU**, use  **torchrun --nproc_per_node=2 train_ddp_gpt_2.py**.
 
